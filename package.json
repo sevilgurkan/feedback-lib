@@ -3,8 +3,12 @@
   "description": "A meaningless clickable button?",
   "namespace": "@kanvil",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sevilgurkan/feedback-lib.git"
+  },
   "author": "Gürkan Sevil",
   "main": "./dist/meaningless-button.umd.js",
   "module": "./dist/meaningless-button.es.js",
