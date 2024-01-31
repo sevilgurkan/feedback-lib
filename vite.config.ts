@@ -10,7 +10,13 @@ export default defineConfig({
     react(),
     tsconfigPaths(),
     dts({
+      compilerOptions: {
+        emitDeclarationOnly: true,
+        declaration: true,
+        outFile: 'types',
+      },
       include: ['packages/components'],
+      exclude: ['**/*test.{ts,tsx}'],
     }),
   ],
   build: {
